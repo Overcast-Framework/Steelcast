@@ -196,6 +196,7 @@ void Application::Run()
     Init();
 
     EventSys = std::make_unique<EventSystem>();
+    AssetMan = std::make_unique<AssetManager>();
     EventSys->Launch();
 
     std::vector<SCVertex> vertices = {

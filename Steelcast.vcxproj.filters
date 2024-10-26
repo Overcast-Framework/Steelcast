@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Core">
+      <UniqueIdentifier>{81F1C769-6D54-570E-16DA-8FC4021C2391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Events">
+      <UniqueIdentifier>{4D67AC00-3935-A006-22C9-102D0E367C6B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Graphics">
+      <UniqueIdentifier>{E901C778-D5FA-E5CA-FE2C-CB4FEA84C5D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Graphics\DX11">
+      <UniqueIdentifier>{D6E14A85-424E-0680-0B42-9EDD776D28E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Math">
+      <UniqueIdentifier>{0232CD69-EE94-5C0E-971A-95C4835C2891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core">
+      <UniqueIdentifier>{A5D31CCF-91A0-77DA-BAB9-6582A6E5AC68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Events">
+      <UniqueIdentifier>{7162C20E-5D1A-045C-C621-DDB7B2F89E4C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Graphics">
+      <UniqueIdentifier>{0D564864-F9B8-D708-A23E-10BF8E80A38B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Math">
+      <UniqueIdentifier>{261422CF-12E1-7CDA-3BFA-6A822726B268}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Core\Application.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Window.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Events\EventArgs.h">
+      <Filter>include\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Events\EventSystem.h">
+      <Filter>include\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Events\Events.h">
+      <Filter>include\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Graphics\Camera.h">
+      <Filter>include\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Graphics\DX11\DX11ConstantBuffer.h">
+      <Filter>include\Graphics\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Graphics\DX11\DX11Material.h">
+      <Filter>include\Graphics\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Graphics\DX11\DX11Renderer.h">
+      <Filter>include\Graphics\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Graphics\DX11\DX11Shader.h">
+      <Filter>include\Graphics\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Graphics\Mesh.h">
+      <Filter>include\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Graphics\Renderer.h">
+      <Filter>include\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Graphics\Vertex.h">
+      <Filter>include\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Math\MathUtils.h">
+      <Filter>include\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Math\Vector.h">
+      <Filter>include\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Steelcast.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Assets\Assets.h" />
+    <ClInclude Include="include\Assets\AssetManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Core\Application.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Events\EventSystem.cpp">
+      <Filter>src\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Camera.cpp">
+      <Filter>src\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\DX11Renderer.cpp">
+      <Filter>src\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\DX11Shader.cpp">
+      <Filter>src\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Math\Vector.cpp">
+      <Filter>src\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assets\Assets.cpp" />
+    <ClCompile Include="src\Assets\AssetManager.cpp" />
+  </ItemGroup>
+</Project>
